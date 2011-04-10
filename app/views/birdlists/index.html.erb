@@ -1,0 +1,23 @@
+<h1>Listing birdlists</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @birdlists.each do |birdlist| %>
+  <tr>
+    <td><%= birdlist.name %></td>
+    <td><%= link_to 'Show', birdlist %></td>
+    <td><%= link_to 'Edit', edit_birdlist_path(birdlist) %></td>
+    <td><%= link_to 'Destroy', birdlist, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Birdlist', new_birdlist_path %>
