@@ -1,10 +1,20 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
-  <%= @birdlist.name %>
+    <b>Name:</b>
+    <%= @birdlist.name %>
 </p>
 
+
+<%= form_for @birdlist do |list_form| %>
+    <% @birdlist.bird_entries.each do |entry| %>
+        <%= list_form.fields_for :bird_entries, entry do |entry_form| %>
+            <div class="field">
+                <%= entry_form.check_box :seen, 'data-update'=>'update_sighting' %><%= entry.name %>
+            </div>
+        <% end %>
+    <% end %>
+<% end %>
 
 <%= link_to 'Edit', edit_birdlist_path(@birdlist) %> |
 <%= link_to 'Back', birdlists_path %>

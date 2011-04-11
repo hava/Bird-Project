@@ -10,10 +10,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110410161329) do
+ActiveRecord::Schema.define(:version => 20110411195906) do
+
+  create_table "bird_entries", :force => true do |t|
+    t.string   "name"
+    t.integer  "birdlist_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "birdlists", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "sightings", :force => true do |t|
+    t.date     "date"
+    t.string   "place"
+    t.text     "description"
+    t.integer  "bird_entry_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
