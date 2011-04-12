@@ -1,6 +1,9 @@
 BirdProject::Application.routes.draw do
   resources :birdlists
 
+  put 'birdlists/seen/:id/:entry_id' => 'birdlists#seen',:as => :seen
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

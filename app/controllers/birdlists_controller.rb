@@ -1,4 +1,11 @@
 class BirdlistsController < ApplicationController
+
+  def seen
+    entry = BirdEntry.find(params[:entry_id])
+#    entry.new_sighting
+#    render
+  end
+
   # GET /birdlists
   # GET /birdlists.xml
   def index

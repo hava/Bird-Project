@@ -5,4 +5,8 @@ class BirdEntry < ActiveRecord::Base
   def seen
     !sightings.empty?
   end
+
+  def new_sighting
+    sightings.push(Sighting.new)
+  end
 end

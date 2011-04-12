@@ -10,7 +10,7 @@
     <% @birdlist.bird_entries.each do |entry| %>
         <%= list_form.fields_for :bird_entries, entry do |entry_form| %>
             <div class="field">
-                <%= entry_form.check_box :seen, 'data-update'=>'update_sighting' %><%= entry.name %>
+                <%= entry_form.check_box :seen, 'data-update-action'=> seen_path(@birdlist, entry) %><%= entry.name %>
             </div>
         <% end %>
     <% end %>
