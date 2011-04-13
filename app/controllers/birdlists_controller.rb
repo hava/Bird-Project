@@ -1,9 +1,10 @@
 class BirdlistsController < ApplicationController
 
   def seen
-    entry = BirdEntry.find(params[:entry_id])
-#    entry.new_sighting
-#    render
+    @birdlist = Birdlist.find(params[:id])
+    @entry = BirdEntry.find(params[:entry_id])
+    seen = params[:birdlist][:bird_entry]["#{@entry.id}"][:seen]
+    @entry.seen = seen
   end
 
   # GET /birdlists
