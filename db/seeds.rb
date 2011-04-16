@@ -12,3 +12,5 @@ plover = BirdEntry.new(:name => "Plover", :seen => false)
 woodpecker = BirdEntry.new(:name => "Woodpecker", :seen => false)
 bird_list.bird_entries.push(hadeda, plover, woodpecker)
 bird_list.save
+
+#testing
