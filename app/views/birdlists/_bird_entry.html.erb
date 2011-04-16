@@ -1,7 +1,0 @@
-<%= fields_for @birdlist do |form| %>
-    <%= form.fields_for entry, :index => entry.id do |entry_form| %>
-        <div id="entry_<%= entry.id %>" class="field">
-            <%= entry_form.check_box :seen, 'data-update-action'=> seen_path(@birdlist, entry) %><%= entry.name %>
-        </div>
-    <% end %>
-<% end %>

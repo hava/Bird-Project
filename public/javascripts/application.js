@@ -1,8 +1,12 @@
 $(document).ready(function() {
-    $('[data-update-action]').live("change", function (e) {
-        alert('heelo')
+    $('[data-update-action]').live("change click", function (e) {
         var remote_action = $(this).attr("data-update-action");
         replace_with_remote_for_type($(this), remote_action, 'put');
+    });
+
+    $('[data-click-action]').live("click", function (e) {
+        var remote_action = $(this).attr("data-click-action");
+        replace_with_remote_for_type($(this), remote_action, 'get');
     });
 });
 

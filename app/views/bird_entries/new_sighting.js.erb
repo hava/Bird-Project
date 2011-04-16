@@ -1,0 +1,1 @@
+$("#sightings_<%= @entry.id %>").replaceWith("<%= escape_javascript(render :partial => 'bird_entries/sightings', :locals => {:entry => @entry})%>");

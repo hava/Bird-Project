@@ -8,7 +8,7 @@
 
 <%= form_for @birdlist do |list_form| %>
     <% @birdlist.bird_entries.each do |entry| %>
-        <%= render :partial => 'birdlists/bird_entry', :locals => {:entry => entry} %>
+        <%= render :partial => 'bird_entries/bird_entry', :locals => {:entry => entry} %>
     <% end %>
 <% end %>
 

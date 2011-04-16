@@ -1,0 +1,18 @@
+<div id="entry_<%= entry.id %>" class="field">
+  <%= fields_for entry, :index => entry.id do |entry_form| %>
+      <span>
+        <%= entry_form.check_box :seen, 'data-update-action'=> seen_path(entry) %>
+        <%= entry.name %>
+        <span id="first_sighting_<%= entry.id %>">
+          <% if !entry.sightings.empty? %>
+              <% first_sighting = entry.sightings.first %>
+              <%= first_sighting.place %>
+              <%= first_sighting.date %>
+          <% end %>
+        </span>
+        <%= link_to "Edit", '#', 'data-click-action'=> edit_bird_entry_path(entry) %>
+        <%= entry.sightings.size %>
+      </span>
+      <%= render :partial => 'bird_entries/sightings', :locals => {:entry => entry} %>
+  <% end %>
+</div>
