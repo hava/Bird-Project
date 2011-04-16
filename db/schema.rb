@@ -14,13 +14,13 @@ ActiveRecord::Schema.define(:version => 20110413194655) do
 
   create_table "bird_entries", :force => true do |t|
     t.string   "name"
-    t.integer  "birdlist_id"
+    t.integer  "bird_list_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "seen"
   end
 
-  create_table "birdlists", :force => true do |t|
+  create_table "bird_lists", :force => true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"

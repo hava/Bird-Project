@@ -1,4 +1,4 @@
 class BirdEntry < ActiveRecord::Base
-  belongs_to :birdlist
+  belongs_to :bird_list
   has_many :sightings
 end

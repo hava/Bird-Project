@@ -1,5 +1,5 @@
 BirdProject::Application.routes.draw do
-  resources :birdlists
+  resources :bird_lists
 
   put 'bird_entries/:id/seen' => 'bird_entries#seen',:as => :seen
   get 'bird_entries/:id/edit' => 'bird_entries#edit_entry',:as => :edit_bird_entry

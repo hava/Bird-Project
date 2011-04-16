@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+
+bird_list = BirdList.new(:name => "South African Bird List")
+hadeda = BirdEntry.new(:name => "Hadeda", :seen => true)
+plover = BirdEntry.new(:name => "Plover", :seen => false)
+woodpecker = BirdEntry.new(:name => "Woodpecker", :seen => false)
+bird_list.bird_entries.push(hadeda, plover, woodpecker)
+bird_list.save

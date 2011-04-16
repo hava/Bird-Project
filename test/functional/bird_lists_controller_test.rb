@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BirdlistsControllerTest < ActionController::TestCase
+class BirdListsControllerTest < ActionController::TestCase
   setup do
     @birdlist = birdlists(:one)
   end
@@ -8,7 +8,7 @@ class BirdlistsControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:birdlists)
+    assert_not_nil assigns(:bird_lists)
   end
 
   test "should get new" do

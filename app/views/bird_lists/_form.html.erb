@@ -1,10 +1,10 @@
-<%= form_for(@birdlist) do |f| %>
-  <% if @birdlist.errors.any? %>
+<%= form_for(@bird_list) do |f| %>
+  <% if @bird_list.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@birdlist.errors.count, "error") %> prohibited this birdlist from being saved:</h2>
+      <h2><%= pluralize(@bird_list.errors.count, "error") %> prohibited this bird list from being saved:</h2>
 
       <ul>
-      <% @birdlist.errors.full_messages.each do |msg| %>
+      <% @bird_list.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
       </ul>

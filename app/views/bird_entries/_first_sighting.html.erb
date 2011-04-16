@@ -1,0 +1,7 @@
+<span id="first_sighting_<%= entry.id %>">
+    <% if !entry.sightings.empty? %>
+        <% first_sighting = entry.sightings.first %>
+      <%= first_sighting.place %>
+      <%= first_sighting.date %>
+    <% end %>
+  </span>
