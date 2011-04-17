@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BirdProject</title>
+  <title>Birding</title>
   <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag "jquery-1.5.2", "application" %>
+  <%= javascript_include_tag "jquery-1.5.2","jquery-ui-1.8.11.custom.min", "application" %>
   <%= csrf_meta_tag %>
 </head>
 <body>
 
-<%= yield %>
+<div>
+  <%= render 'layouts/header' %>
 
+  <div id="yield" class="left_padding inline span-70">
+    <%= yield %>
+  </div>
+
+  <div class="inline span-20">
+      <%= render 'layouts/side_menu' %>
+  </div>
+</div>
 </body>
 </html>

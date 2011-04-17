@@ -1,0 +1,897 @@
+1,Ostrich,a,KNP
+2,King Penguin
+3,Jackass Penguin,a,Cape Town - Boulders
+4,Rockhopper Penguin
+5,Macaroni Penguin
+6,Great Crested Grebe,a,Marievale
+7,Blacknecked Grebe
+8,Dabchick,a,Rondebult
+9,Royal Albatross
+10,Wandering Albatross
+11,Shy Albatross
+12,Blackcrowned Albatross
+13,Greyheaded Albatross
+14,Yellownosed Albatross
+15,Darkmantled Sooty Albatross
+16,Lightmantled Sooty Albatross
+17,Southern Giant Petrel
+18,Northern Giant Petrel
+19,Antarctic Fulmar
+20,Antarctic Petrel
+21,Pintado Petrel
+22,Bulwer's Petrel
+23,Greatwinged Petrel
+24,Softplumaged Petrel
+25,Whiteheaded Petrel
+26,Atlantic Petrel
+27,Kerguelen Petrel
+28,Blue Petrel
+29,Broadbilled Prion
+30,Slenderbilled Prion
+31,Fairy Prion
+32,Whitechinned Petrel
+33,Grey Shearwater
+34,Cory's Shearwater
+35,Great Shearwater
+36,Fleshfooted Shearwater
+37,Sooty Shearwater
+38,Manx Shearwater
+39,Little Shearwater
+40,Audubon's Shearwater
+41,Wedgetailed Shearwater
+42,European Storn Petrel
+43,Leach's Storm Petrel
+44,Wilson's Storm Petrel
+45,Whitebellied Storm Petrel
+46,Blackbellied Storm Petrel
+47,Redtailed Tropicbird
+48,Whitetailed Tropicbird
+49,White Pelican,a,Cape Town - Milnerton
+50,Pinkbacked Pelican
+51,Masked Booby
+52,Brown Booby
+53,Cape Gannet,a,Saldanah Bay
+54,Australian Gannet
+55,Whitebreasted Comorant,a
+56,Cape Comorant
+57,Bank Comorant,a,Seal Island
+58,Reed Comorant,a,Marievale ,28/10/2000
+59,Crowned Comorant
+60,Darter,a
+61,Greater Frigatebird
+62,Grey Heron,a
+63,Blackheaded Heron,a,Olifantsvlei
+64,Goliath Heron,a,KNP Balule
+65,Purple Heron,a,Woodmead Office Park,27/8/2010
+66,Great White Egret,a,KNP
+67,Little Egret,a
+68,Yellowbilled Egret,a,KNP
+69,Black Egret,a,Marievale,13/10/1988
+70,Slaty Egret
+71,Cattle Egret,a,Olifantsvlei
+72,Squacco Heron,a,Marievale,28/10/2000
+73,Madagscar Squacco Heron
+74,Greenbacked Heron,a,KNP Nwanetsi
+75,Rufousbellied Heron
+76,Blackcrowned Night Heron,a,Marievale,28/10/2000
+77,Whitebacked Night Heron,a,KNP Bateleur Camp,12/2/2001
+78,Little Bittern,a,Marievale,27/1/2002
+79,Dwarf Bittern
+80,Bittern
+81,Hamerkop,a
+82,Shoebill
+83,White Stork,a
+84,Black Stork,a,KNP Shingwedzi-Punda,16/2/2001
+85,Abdim's Stork,a
+86,Woollynecked Stock,a
+87,Openbilled Stork,a
+88,Saddlebilled Stork,a
+89,Marabou Stork,a
+90,Yellowbilled Stork,a
+91,Sacred Ibis,a
+92,Bald Ibis,a,Hluhluwe,23/12/1996
+93,Glossy Ibis,a,Olifantsvlei
+94,Hadeda Ibis,a,Olifantsvlei
+95,African Spoonbill,a,Marievale,28/10/2000
+96,Greater Flamingo,a,Marievale,28/10/2000
+97,Lesser Flamingo,a
+98,Mute Swan
+99,Whitefaced Duck,a,Rondebult
+100,Fulvous Duck,a,Rondebult,9/2000
+101,Whitebacked Duck
+102,Egyptian Goose,a
+103,South African Shelduck
+104,Yellowbilled Duck,a
+105,African Black Duck,a,Monk's Cowl,19/3/2000
+106,Cape Teal,a,Marievale,24/12/2000
+107,Hottentot Teal,a,Rondebult
+108,Redbilled Teal,a,KNP -Phalaborwa Rd
+109,Pintail
+110,Garganey
+111,European Shoveler
+112,Cape Shoveler,a,Rondebult
+113,Southern Porchard,a,Rondebult,13/10/1991
+114,Pygmy Goose,a,Kosi Bay,25/12/2001
+115,Knobbilled Duck,a
+116,Spurwinged Goose,a,Rondebult
+117,Maccoa Duck
+118,Secretarybird,a
+119,Bearded Vulture,a,Witsieshoek Nature Reserve,28/4/2001
+120,Egyptian Vulture
+121,Hooded Vulture,a,KNP Shingwedzi,15/2/2001
+122,Cape Vulture,a,Marakele National Park,20/4/2002
+123,Whitebacked Vulture,a
+124,Lappetfaced Vulture,a
+125,Whiteheaded Vulture,a,KNP Croc Bridge tar Rd,22/9/2001
+126,Black Kite - Yellowbilled Kite,a
+127,Blackshouldered Kite,a,Lenasia
+128,Cuckoo hawk
+129,Bat Hawk
+130,Honey Buzzard
+131,Black Eagle,a,Drakensberg
+132,Tawny Eagle,a
+133,Steppe Eagle,a
+134,Lesser Spotted Eagle
+135,Wahlberg's Eagle,a,KNP Bateleur-Letaba Rd,19/2/2001
+136,Booted Eagle,a,Karoo National Park,25/12/2002
+137,African Hawk Eagle,a,KNP Timbavati,6/1/1992
+138,Ayre's Eagle
+139,Longcrested Eagle,a,Fanie Botha Hiking Trail,9/8/2001
+140,Martial Eagle,a,KNP Timbavati
+141,Crowned Eagle,a,Ndumo Nature Reserve,22/12/2001
+142,Brown Snake Eagle,a
+143,Blackbreasted Snake Eagle,a,KNP Phalaborwa,29/9/2000
+144,Southern Banded Snake Eagle
+145,Western Banded Snake Eagle
+146,Bateleur,a,KNP S100
+147,Palmnut Vulture,a,Sand Rd of Kosi Bay Lodge,25/12/2001
+148,African Fish Eagle,a,KNP Gudzani Dam
+149,Steppe Buzzard,a,KNP-Balule,26/9/2000
+150,Forest Buzzard,a,Magoebaskloof,1/9/2001
+151,Longlegged Buzzard
+152,Jackal Buzzard,a,Dullstroom Rd,12/2/2001
+153,Augur Buzzard
+154,Lizzard Buzzard,a,Umfolozi Game Reserve,30/12/2001
+155,Redbreasted Sparrowhawk,a,Wakkerstroom,6/11/2004
+156,Ovambo Sparrowhawk
+157,Little Sparrowhawk,a,KNP-Pafuri  Fever Tree  Forest,14/2/2001
+158,Black Sparrowhawk
+159,Little Banded Goshawk,a,KNP-Bataleur-N Sand Road,15/2/2001
+160,African Goshawk,a,Mapelane Nature Reserve,1/1/2002
+161,Gabar Goshawk,a,KNP Satara
+162,Pale Chanting Goshawk,a,Rd to Augrabies bt  Kuruman & Upington,31/3/2002
+163,Dark Chanting Goshawk,a,KNP-Bataleur-Near Rooi..rand,14/2/2001
+164,European Marsh Harrier
+165,African Marsh Harrier,a,Kosi Bay Tar Rd,26/12/2001
+166,Montagu's Harrier,a,KNP-Tar toward Shingwedzi,18/2/2001
+167,Pallid Harrier,a,KNP-Tar toward Shingwedzi,12/2/2001
+168,Black Harrier,a,Kgalagadi TP - Mata Mata Rd,3/4/2002
+169,Gymnogene,a,KNP Near Gudzani Dam
+170,Osprey,a,KNP Lower Sabie tar rd,2/7/2001
+171,Peregrine Falcon,a,Rd to De Hoop,30/12/2002
+172,Lanner Falcon,a,Rd from Augrabies to Kalahari,2/4/2002
+173,Hobby Falcon,a,KNP Sand rd to Pafuri,8/2/2002
+174,African Hobby Falcon
+175,Sooty Falcon
+176,Taita Falcon,a,Strydom Tunnel,4/12/2002
+177,Eleonora's Falcon
+178,Rednecked Falcon,a,Kgalagadi TP - S Dune Rd ,6/2/2002
+179,Western Redfooted Falcon,a,Suikerbosrand-Marievale RD
+180,Eastern Redfooted Falcon,a,Suikerbosrand-Marievale RD
+181,Rock Kestrel,a,Mtn Sanctuary Park,15/4/2001
+182,Greater Kestrel,a,Zion City Road- Pietersburg,3/9/2001
+183,Lesser Kestrel,a,Rd to Borakolalo,17/2/2002
+184,Grey Kestrel
+185,Dickinson's Kestrel,a,KNP Mahonie loop,8/2/2002
+186,Pygmy Falcon,a,Rd to Augrabies bt  Kuruman & Upington,31/3/2002
+187,Chukar Partridge
+188,Coqui Francolin,a,KNP
+189,Crested Francolin,a
+190,Greywing Francolin,a,Tar Rd pass Strekfontein Dam,30/4/2001
+191,Shelley's Francolin,a,Marakele National Park,20/4/2002
+192,Redwing Francolin,a,Wakkerstroom,6/11/2004
+193,Orange River Francolin,a,Vaalbos National Park,24/12/2002
+194,Redbilled Francolin
+195,Cape Francolin,a,Cape Town - Kirstenbosch Gardens,11/8/2002
+196,Natal Francolin,a,KNP
+197,Hartlaub's Francolin
+198,Rednecked Francolin,a,Wilderness Nat. Park,12/1993 - 1/1994
+199,Swainson's Francolin,a,KNP
+200,Common Quail,a,Umfolozi Game Reserve,1/1/2002
+201,Harlequin Quail
+202,Blue Quail
+202.1,Common Peafowl,a,Robben Island,28/12/2002
+203,Helmeted Guineafowl,a
+204,Crested Guineafowl,a,KNP Punda Maria,3/1/1992
+205,Kurrichane Buttonquail
+206,Blackrumped Buttonquail
+207,Wattled Crane
+208,Blue Crane,a,Rd home from Drakensberg
+209,Crowned Crane,a,Rd to Royal Natal Nat. Park,29/4/2001
+210,African Rail
+211,Corncrake
+212,African Crake
+213,Black Crake,a
+214,Spotted Crake
+215,Baillon's Crake
+216,Striped Crake
+217,Redchested Flufftail
+218,Buffspotted Flufftail
+219,Streakybreasted Flufftail
+220,Longtoed Flufftail
+221,Striped Flufftail
+222,Whitewinged Flufftail
+223,Purple Gallinule,a
+224,Lesser Gallinule
+225,American Purple Gallinule
+226,Moorhen,a
+227,Lesser Moorhen,a,"Borakalalo National Park, Sefudi Hide"
+228,Redknobbed Coot,a
+229,African Finfoot,a,KNP Skukuza Camp - Sabie River,24/9/2001
+230,Kori Bustard,a
+231,Stanley's Bustard,a,Bontebok National Park,31/12/2002
+232,Ludwig's Bustard,a,Karoo National Park,25/12/2002
+233,Whitebellied Korhaan,a,Rhino & Lion Park,2/8/2002
+234,Blue Korhaan,a
+235,Karoo Korhaan
+236,Rupell's Korhaan
+237,Redchested Korhaan,a,KNP Balule sand Rd
+238,Blackbellied Korhaan,a
+239a,Black Korhaan,a,Boskop (Potch Rd)
+239b,Southern Black Korhaan,a,West Coast National Park,27/12/2002
+240,African Jacana,a,KNP Lower Sabie Dam
+241,Lesser Jacana
+242,Painted Snipe,a,Borakalalo National Park,11/11/2006
+243,European Oystercatcher
+244,African Black Oystercatcher,a,West Coast National Park,27/12/2002
+245,Ringed Plover,a,Mapelane Nature Reserve,2/1/2002
+246,Whitefronted Plover,a,Cape of Good Hope,12/93
+247,Chestnutbanded Plover
+248,Kittliz's Plover,a,Vaalkop,7/12/2002
+249,Threebanded Plover,a
+250,Mongolian Plover
+251,Sand Plover
+252,Caspian Plover
+253,Lesser Golden Plover
+254,Grey Plover,a,West Coast National Park,27/12/2002
+255,Crowned Plover,a
+256,Lesser Blackwinged Plover,a,KNP S100,26/7/2003
+257,Blackwinged Plover
+258,Blacksmith Plover,a
+259,Whitecrowned Plover,a,KNP Lower Sabie
+260,Wattled Plover,a,Lenasia-Oupa Fats,26/12/2000
+261,Longtoed Plover
+262,Turnstone,a,Vaalkop
+263,Terek Sandpiper
+264,Common Sandpiper,a
+265,Green Sandpiper
+266,Wood Sandpiper,a,Marievale
+267,Spotted Redshank
+268,Redshank
+269,Marsh Sandpiper,a,KNP Shingwedzi,14/2/2001
+270,Greenshank,a,KNP Letaba Bridge ,12/2/2001
+271,Knot
+272,Curlew Sandpiper,a,West Coast National Park,27/12/2002
+273,Dunlin
+274,Little Stint,a,PMC Bird Survey,18/8/2001
+275,Longtoed Stint
+276,Rednecked Stint
+277,Whiterumped Sandpiper
+278,Baird's Sandpiper
+279,Pectoral Sandpiper
+280,Temmink's Stint
+281,Sanderling,a,Mapelane Nature Reserve,3/1/2002
+282,Buffbreasted Sandpiper
+283,Broadbilled Sandpiper
+284,Ruff,a,Rondebult,4/5/1988
+285,Great Snipe
+286,Ethiopian Snipe,a,Marievale,28/10/2000
+287,Blacktailed Godwit
+288,Bartailed Godwit
+289,Curlew,a,West Coast National Park,27/12/2002
+290,Whimbrel,a,Mapelane Nature Reserve,2/1/2002
+291,Grey Phalarope
+292,Rednecked Phalarope
+293,Wilson's Phalarope
+294,Avocet,a
+295,Blackwinged Stilt,a
+296,Crab Plover
+297,Spotted Dikkop,a
+298,Water Dikkop,a
+299,Burchell's Courser
+300,Temminck's Courser,a,KNP Satara
+301,Doublebanded Courser
+302,Threebanded Courser
+303,Bronzewinged Courser
+304,Redwinged Prantincole,a,KNP Letaba River
+305,Blackwinged Pratincole
+306,Rock Pranticole
+307,Artic Skua
+308,Longtailed Skua
+309,Pomarine Skua
+310,Subantartic Skua
+311,South Polar Skua
+312,Kelp Gull,a,CT Hout Bay ,12/1993
+313,Lesser Blackheaded Gull
+314,Herring Gull
+315,Greyheaded Gull,a,Benoni
+316,Hartlaub's Gull,a,CT Sea Point ,12/1993
+317,Franklin's Gull
+318,Sabine's Gull
+319,Blackheaded Gull
+320,Blacklegged Kittiwake
+321,Gullbilled Tern
+322,Caspian Tern,a,"St. Lucia, Mapelane",12/1996
+323,Royal Tern
+324,Swift Tern
+325,Lesser Crested Tern
+326,Sandwich Tern,a,Natures Valley,3/1/2003
+327,Common Tern
+328,Arctic Tern
+329,Antarctic Tern
+330,Roseate Tern
+331,Blacknaped Tern
+332,Sooty Tern
+333,Bridled Tern
+334,Damara Tern
+335,Little Tern
+336,Whitecheeked Tern
+337,Black Tern
+338,Whiskered Tern,a,Marievale,28/10/2000
+339,Whitewinged Tern
+340,Common Noddy
+341,Lesser Noddy
+342,Fairy Tern
+343,African Skimmer
+344,Namaqua Sandgrouse,a,Rd from Augrabies to Kalahari,2/4/2002
+345,Burchell's Sandgrouse,a,Kgalagadi TP - S Dune Rd,6/4/2002
+346,Yellowthroated Sandgrouse
+347,Doublebanded Sandgrouse,a,KNP
+348,Feral Pigeon,a,Lenasia Ext. 9
+349,Rock Pigeon,a,Boskruin
+350,Rameron Pigeon,a,Mt. Sheba
+351,Delegorgue's Pigeon
+352,Redeyed Dove,a
+353,Mourning Dove,a
+354,Cape Turtle Dove,a
+355,Laughing Dove,a
+356,Namaqua Dove,a,KNP
+357,Bluespotted Dove
+358,Greenspotted Dove,a
+359,Tambourine Dove,a,KNP Pafuri,6/1/1992
+360,Cinnamon Dove,a,Magoebaskloof Hiking Trail ,1/9/2001
+361,Green Pigeon,a,KNP
+362,Cape Parrot
+363,Bownheaded Parrot,a,KNP
+364,Meyers Parrot,a,Borakalalo
+365,Ruppell's Parrot
+366,Roseringed Parakeet
+367,Rosyfaced Lovebird
+368,Lillian's Lovebird
+369,Blackcheeked Lovebird
+370,Knysna Loerie,a,Mt. Sheba ,1/1/1991
+371,Purplecrested Lourie,a,KNP Nkhlu Picnic Spot
+372,Ross's Lourie
+373,Grey Lourie,a,KNP
+374,European Cuckoo,a,Ndumo Nature Reserve,22/12/2001
+375,African Cuckoo,a,KNP
+376,Lesser Cuckoo
+377,Redchested Cuckoo,a,Eastern Transvaal  ,4/1/1991
+378,Black Cuckoo,a,Hluhluwe/Wit Botanical Gardens,29/12/1996
+379,Barred Cuckoo
+380,Great Spotted Cuckoo,a,KNP S100,3/1/1992
+381,Striped Cuckoo,a,Borakalalo
+382,Jacobin Cuckoo,a
+383,Thickbilled Cuckoo,a,KNP Maroela Loop,9/11/2004
+384,Emerald Cuckoo
+385,Klaas's Cuckoo,a,Mkuze Nature Reserve,28/12/2001
+386,Diederik Cuckoo,a,KNP Satara
+387,Green Coucal,a,Kosi Bay Lodge,25/12/2001
+388,Black Coucal
+389,Copperytailed Coucal
+390,Senegal Coucal,a,KNP Pafuri LRBCount,11/12/2004
+391,Burchell's Coucal,a,KNP Nwanetsi
+392,Barn Owl,a
+393,Grass Owl
+394,Wood Owl
+395,Marsh Owl,a
+396,Scops Owl,a,KNP - Satara Camp,22/9/2001
+397,Whitefaced Owl,a,KNP S28 gravel rd – Croc Bridge,2/7/2001
+398,Pearlspotted Owl,a
+399,Barred Owl,a,KNP Croc Bridge tar Rd,1/7/2001
+400,Cape Eagle Owl
+401,Spotted Eagle Owl,a,Boskruin,3/5/2001
+402,Giant Eagle Owl,a,KNP Rd to Balule from Satara
+403,Pel's Fishing Owl,a,PMC Bird Survey – Olifants River,18/8/2001
+404,European Nightjar,a,KNP Olifants Camp,1/1/1993
+405,Fierynecked Nightjar,a,KNP Bateleur Camp,14/2/2001
+406,Rufouscheeked Nightjar
+407,Natal Nightjar
+408,Freckled Nightjar,a,Mkuze Nature Reserve,28/12/2001
+409,Mozambique Nightjar,a,KNP Bateleur Camp,12/2/2001
+410,Pennantwinged Nightjar
+411,European Swift
+412,Black Swift,a,Mt. Sheba ,1/1991
+413,Bradfield's Swift
+414,Pallid Swift
+415,Whiterumped Swift,a,KNP Pafuri (H1-8),4/1/1991
+416,Horus Swift,a,Karoo National Park,25/12/2002
+417,Little Swift,a
+418,Alpine Swift,a,Augrabies National Park,31/3/2002
+419,Mottled Swift
+420,Scarce Swift
+421,Palm Swift,a,KNP Olifants Camp,2/1/1993
+422,Mottled Spinetail,a,KNP Nyalaland Camp,16/11/2004
+423,Bohm's Spinetail,a,KNP Pafuri,12/4/2004
+424,Speckled Mousebird,a,Suikerbosrand
+425,Whitebacked Mousebird,a,Augrabies National Park,1/4/2002
+426,Redfaced Mousebird,a,"Lenasia, Garden"
+427,Narina Trogon,a,Mt. Sheba,2/1/1991
+428,Pied Kingfisher,a,KNP
+429,Giant Kingfisher,a,KNP
+430,Halfcollared Kingfisher,a,Wilderness Nat. Park,2/1/2003
+431,Malachite Kingfisher,a
+432,Pygmy Kingfisher,a,KNP Shingwedzi,2/1/1992
+433,Woodland Kingfisher,a,KNP Satara
+434,Mangrove Kingfisher
+435,Brownhooded Kingfisher,a
+436,Greyhooded Kingfisher,a,KNP Letaba River Road,4/1/1993
+437,Striped Kingfisher,a,KNP Sabie
+438,European Bee-eater,a,KNP Satara
+439,Olive Bee-eater
+440,Bluecheeked Bee-eater,a,Vaalkop
+441,Carmine Bee-eater,a,KNP Satara
+442,Bohm's Bee-eater
+443,Whitefronted Bee-eater,a,KNP
+444,Little Bee-eater,a,KNP
+445,Swallowtailed Bee-eater,a,Augrabies National Park,1/4/2002
+446,European Roller,a,KNP
+447,Lilacbreasted Roller,a,KNP
+448,Racket-tailed Roller
+449,Purlple Roller,a,KNP
+450,Broadbilled Roller,a,KNP Shingwedzi,2/1/1992
+451,Hoopoe,a,KNP
+452,Redbilled Woodhoopoe,a,KNP
+453,Violet Woodhoopoe
+454,Scimitarbilled Woodhoopoe,a,KNP
+455,Trumpeter Hornbill,a
+456,Silvercheeked Hornbill
+457,Grey Hornbill,a,KNP
+458,Redbilled Hornbill,a,KNP
+459,Yellowbilled Hornbill,a,KNP
+460,Crowned Horbill,a,KNP Punda Maria Camp,2/1/1992
+461,Bradfield's Hornbill
+462,Monteiro's Hornbill
+463,Ground Hornbill,a,KNP
+464,Blackcollared Barbet,a,KNP
+465,Pied Barbet,a
+466,White-eared Barbet,a,"St. Lucia, Mapelane",12/1996
+467,Whyte's Barbet
+468,Woodward's Barbet
+469,Redfronted Tinker Barbet,a,Mkuze Nature Reserve,29/12/2001
+470,Yellowfronted Tinker Barbet,a,Mtn Sanctuary Park,15/4/2001
+471,Goldenrumped Tinker Barbet,a,"St. Lucia, Mapelane",12/1996
+472,Green Tinker Barbet
+473,Crested Barbet,a,KNP
+474,Greater Honeyguide,a,Spioenkop
+475,Scalythroated Honeyguide,a,Tsitsikamma Hiking Trail,23/9/2003
+476,Lesser Honeyguide,a,Wits Botanical Garden,13/7/1997
+477,Eastern Honeyguide
+478,Sharpbilled Honeyguide,a,Spioenkop
+479,Slenderbilled Honeyguide
+480,Ground Woodpecker,a,Golden Gate - Rhebok Hiking Trail,31/8/2002
+481,Bennett's Woodpecker,a,KNP Satara
+482,Speckledthroated Woodpecker
+483,Goldentailed Woodpecker,a,"St. Lucia, Mapelane ",12/1996
+484,Knysna Woodpecker,a,Wilderness Nat. Park,2/1/2003
+485,Little Spotted Woodpecker
+486,Cardinal Woodpecker,a,KNP
+487,Bearded Woodpecker,a,KNP
+488,Olive Woodpecker,a,Mt. Sheba
+489,Redthroated Wryneck,a
+490,African Broadbill,a,Mkuze Nature Reserve,27/12/2001
+491,Angola Pitta
+492,Melodious Lark,a
+493,Monotonous Lark,a,KNP Timbavati
+494,Rufousnaped Lark,a
+495,Clapper Lark,a,Vaalbos National Park,24/12/2002
+496,Flappet Lark
+497,Fawncoloured Lark,a,Kgalagadi TP - S Dune Rd,6/4/2002
+498,Sabota Lark,a,KNP
+499,Rudd's Lark,a,Wakkerstroom,6/11/2004
+500,Longbilled Lark,a,Augrabies National Park,1/4/2002
+501,Shortclawed Lark
+502,Karoo Lark
+503,Dune Lark
+504,Red Lark
+505,Dusky Lark,a,KNP Letaba
+506,Spikeheeled Lark,a,Vaalbos National Park,24/12/2002
+507,Redcapped Lark,a,Wakkerstroom,6/11/2004
+508,Pinkbilled Lark,a,Kgalagadi TP - S Dune Rd,6/4/2002
+509,Botha's Lark,a,Wakkerstroom,6/11/2004
+510,Sclater's Lark
+511,Stark's Lark
+512,Thickbilled Lark
+513,Bimaculated Lark
+514,Gray's Lark
+515,Chestnutbacked Lark,a
+516,Greybacked Finchlark,a,Rd from Augrabies to Kalahari,2/4/2002
+517,Blackeared Finchlark
+518,European Swallow,a
+519,Angola Swallow
+520,Whitethroated Swallow,a,Marievale
+521,Blue Swallow
+522,Wiretailed Swallow,a,KNP Balule Bridge,3/1/1993
+523,Pearlbreasted Swallow
+524,Redbreasted Swallow,a
+525,Mosque Swallow,a,KNP Pafuri,5/1/1992
+526,Greater Striped Swallow,a
+527,Lesser Striped Swallow,a
+528,South African Cliff Swallow,a,Wakkerstroom,6/11/2004
+529,Rock Martin,a
+530,House Martin
+531,Greyrumped Swallow,a,KNP Olifants Bridge
+532,Sand Martin,a,Marievale,27/1/2002
+533,Brownthroated Martin,a,Marievale
+534,Banded Martin
+535,Mascarene Martin
+536,Black Saw-wing Swallow,a,Fanie Botha Hiking Trail,9/8/2001
+537,Eastern Saw-wing Swallow
+538,Black Cuckooshrike,a,KNP Lower Sabie Rd
+539,Whitebreasted Cuckoo Shrike
+540,Grey Cuckooshrike,a,Magoebaskloof Hiking Trail,1/9/2001
+541,Forktailed Drongo,a,KNP
+542,Squaretailed Drongo,a,KNP Satara
+543,European Golden Oriole,a,KNP Punda Maria - Pafuri Rd,5/1/1992
+544,African Golden Oriole,a,Nylsvlei
+545,Blackheaded Oriole,a,KNP Satara
+546,Greenheaded Oriole
+547,Black Crow,a,Royal Natal Nat. Park
+548,Pied Crow,a
+549,House Crow
+550,Whitenecked Raven,a,Eastern Transvaal,7/1/1992
+551,Southern Grey Tit,a,Karoo National Park,25/12/2002
+552,Ashy Tit,a
+553,Northern Grey Tit
+554,Southern Black Tit,a,KNP
+555,Carp's Tit
+556,Rufousbellied Tit
+557,Cape Penduline Tit
+558,Grey Penduline Tit,a,KNP Maroela Loop,22/10/2004
+559,Spotted Creeper
+560,Arrowmarked Babbler,a,KNP
+561,Blackfaced Babbler
+562,Hartlaub's Babbler
+563,Pied Babbler,a,Vaalkop
+564,Barecheeked Babbler
+565,Bush Blackcap,a,Wakkerstroom,6/11/2004
+566,Cape Bulbul,a,Wilderness Nat. Park,12/1993 - 1/1994
+567,Redeyed Bulbul,a,Suikerbosrand
+568,Blackeyed Bulbul,a
+569,Terrestrial Bulbul,a,KNP Pafuri,3/1/1992
+570,Yellowstreaked Bulbul,a,Magoebaskloof Hiking Trail,1/9/2001
+571,Slender Bulbul
+572,Sombre Bulbul,a,KNP Nwanetsi
+573,Stripecheeked Bulbul
+574,Yelowbellied Bulbul,a,KNP Pafuri,3/1/1992
+575,Yellowspotted Nicator,a,KNP Punda Maria Camp,3/1/1992
+576,Kurrichane Thrush,a,KNP
+577,Olive Thrush,a
+578,Spotted Thrush
+579,Orange Thrush,a,Fanie Botha Hiking Trail,9/8/2001
+580,Groundscraper Thrush,a,KNP
+581,Cape Rock Thrush,a,Blyde River Canyon
+582,Sentinel Rock Thrush,a,Suikerbosrand
+583,Short-toed Rock Thrush,a,Marakele National Park,20/2/2002
+584,Miombo Rock Thrush
+585,European Wheatear
+586,Mountain Chat,a
+587,Capped Wheatear,a
+588,Buffstreaked Chat,a,Royal Natal Nat. Park - Tendene ,14/9/1998
+589,Familiar Chat,a
+590,Tractrac Chat,a,Karoo National Park,26/12/2002
+591,Sicklewinged Chat
+592,Karoo Chat,a,Karoo National Park,25/12/2002
+593,Mocking Chat,a,Suikerbosrand
+594,Arnot's Chat,a,KNP Punda Maria (H13-1),6/1/1992
+595,Anteating Chat,a
+596,Stonechat,a
+597,Whinchat
+598,Chorister Robin,a,Royal Natal Nat. Park
+599,Heuglin's Robin,a,KNP Tshokwane
+600,Natal Robin,a,Sudwala Caves
+601,Cape Robin,a,Suikerbosrand
+602,Whitethroated Robin,a,Klipvoort Dam
+603,Collared Palm Thrush
+604,Rufoustailed Palm Thrush
+605,Whitebreasted Alethe
+606,Starred Robin,a,Mt. Sheba
+607,Swynnerton's Robin
+608,Gunnung's Robin
+609,Thrush Nightingale
+610,Boulder Chat
+611,Cape Rockjumper
+612,Orangebreasted Rockjumper,a,Witsieshoek Nature Reserve,28/04/2001
+613,Whitebrowed Robin,a,Vaalkop
+614,Karoo Robin,a,Augrabies National Park,1/4/2002
+615,Kalahari Robin,a,Suikerbosrand
+616,Brown Robin,a,Kosi Bay Lodge,25/12/2001
+617,Bearded Robin,a,KNP Pafuri,3/1/1992
+618,Herero Chat
+619,Garden Warbler
+620,Whitethroat
+621,Titbabbler,a,Vaalkop
+622,Layard's Titbabbler,a,Karoo National Park,25/12/2002
+623,Yellowbreasted Hyliota
+624,Mashona Hyliota
+625,Icterine Warbler,a,"Botswana , Lotswani River"
+626,Olivetree Warbler
+627,River Warbler
+628,Great Reed Warbler,a,Rondebult
+629,Basra Reed Warbler
+630,European Reed Warbler
+631,African Marsh Warbler,a,Marievale
+632,Cinnamon Reed Warbler
+633,European Marsh Warbler
+634,European Sedge Warbler
+635,Cape Reed Warbler,a,Wilderness Nat. Park,12/1993 - 1/1994
+636,Greater Swamp Warbler
+637,Yellow Warbler
+638,African Sedge Warbler
+639,Barratt's Warbler
+640,Knysna Warbler
+641,Victorin's Warbler
+642,Broadtailed Warbler
+643,Willow Warbler,a,Olifantsvlei
+644,Yellowthroated Warbler,a,Royal Natal Nat. Park
+645,Barthroated Apalis,a
+646,Chirinda Apalis
+647,Blackheaded Apalis
+648,Yellowbreasted Apalis,a
+649,Rudd's Apalis
+650,Redfaced Crombec
+651,Longbilled Crombec,a,KNP
+652,Redcapped Crombec
+653,Yellowbellied Eremomela,a,Rhino & Lion Park,2/8/2002
+654,Karoo Eremomela
+655,Greencapped Eremomela,a
+656,Burntnecked Eremomela,a,Pilanesberg
+657,Greenbacked Bleating Warbler,a,Saasveld (Wilderness),12/1993 - 1/1994
+658,Barred Warbler
+659,Stierling's Barred Warbler,a,KNP Maroela Loop,22/10/2004
+660,Cinnamonbreasted Warbler
+661,Grassbird,a,Suikerbosrand
+662,Rockrunner
+663,Moustached Warbler
+664,Fantailed Cisticola,a
+665,Desert Cisticola,a,Umfolozi Game Reserve,1/1/2002
+666,Cloud Cisticola,a,Riverside 4x4,2/2/2003
+667,Ayre's Cisticola,a,Wakkerstroom,6/11/2004
+668,Palecrowned Cisticola
+669,Greybacked Cisticola,a,Karoo National Park,25/12/2002
+670,Wailing Cisticola,a,Wakkerstroom,6/11/2004
+671,Tinkling Cisticola
+672,Rattling Cisticola,a,Rust De Winter
+673,Singing Cisticola
+674,Redfaced Cisticola,a,Vhembe/Dongola National Park,10/4/2004
+675,Blackbacked Cisticola
+676,Chirping Cisticola
+677,Levaillant's Cisticola,a
+678,Croaking Cisticola,a,Umfolozi Game Reserve,1/1/2002
+679,Lazy Cisticola,a,Marakele National Park,20/4/2002
+680,Shortwinged Cisticola
+681,Neddicky,a,"Lenasia, Garden"
+682,Redwinged Warbler
+683,Tawnyflanked Prinia,a,KNP
+684,Robert's Prinia
+685,Blackchested Prinia,a,"Lenasia, Garden"
+686A,Spotted Prinia,a,Royal Natal Nat. Park
+686B,Karoo Prinia,a,Cape Town - Rondevlei,10/8/2002
+687,Namaqua Prinia
+688,Rufouseared Warbler,a,Vaalbos National Park,23/12/2002
+689,Spotted Flycatcher,a
+690,Dusky Flycatcher,a
+691,Bluegrey Flycatcher,a,KNP Pafuri,3/1/1992
+692,Collared Flycatcher
+693,Fantailed Flycatcher,a,KNP Satara
+694,Black Flycatcher,a
+695,Marico Flycatcher,a,Vaalkop
+696,Mousecoloured Flycatcher,a,Mkuze Nature Reserve,26/12/2001
+697,Chat Flycatcher,a,Kgalagadi TP - N Dune Rd,4/4/2002
+698,Fiscal Flycatcher,a,Suikerbosrand
+699,Vanga Flycatcher
+700,Cape Batis,a,Royal Natal National Park
+701,Chinspot Batis,a,KNP Olifants
+702,Mozmbique Batis
+703,Pirit Batis
+704,Woodward's Batis,a,"St. Lucia, Mapelane ",12/1996
+705,Wattle-eyed Flycatcher,a,KNP Pafuri,3/1/1992
+706,Fairy Flycatcher,a
+707,Livingstone's Flycatcher
+708,Bluemantled Flycatcher,a,Fanie Botha Hiking Trail,11/8/2001
+709,Whitetailed Flycatcher
+710,Paradise Flycatcher,a,KNP
+711,African Pied Wagtail,a,KNP Sabie River
+712,Longtailed Wagtail
+713,Cape Wagtail,a,"Lenasia, Garden"
+714,Yellow Wagtail
+715,Grey Wagtail
+716,Richard's Pipit,a
+717,Longbilled Pipit,a,Pilanesberg National Park,20/10/2002
+718,Plainbacked Pipit,a,KNP Timbavati - Olifants Rd,3/1/1993
+719,Buffy Pipit,a,Rhino & Lion Park,2/8/2002
+720,Striped Pipit,a,Mtn Sanctuary Park,15/4/2001
+721,Rock Pipit,a,Mountain Zebra National Park,7/1/2003
+722,Tree Pipit
+723,Bushveld Pipit
+724,Short-tailed Pipit,a,Marakele National Park,21/4/2002
+725,Yellowbreasted Pipit,a,Wakkerstroom,6/11/2004
+726,Golden Pipit
+727,Orangethroated Longclaw,a,Suikerbosrand
+728,Yellowthroated Longlaw,a,KNP Satara
+729,Fulleborn's Longlaw
+730,Pinkthroated Longlaw
+731,Lesser Grey Shrike,a,Kosi Bay ,26/12/2001
+732,Fiscal Shrike,a
+733,Redbacked Shrike,a,KNP
+734,Sousa's Shrike
+735,Longtailed Shrike,a,KNP
+736,Southern Boubou,a,Vaalkop
+737,Tropical Boubou,a,KNP Pafuri,3/1/1992
+738,Swamp Boubou
+739,Crimsonbreasted Shrike,a,Borakalalo
+740,Puffback,a,KNP Balule
+741,Brubru,a,KNP Nwanedsi
+742,Southern Tchagra,a,De Hoop Nature Reserve,31/12/2002
+743,Threestreaked Tchagra,a,KNP
+744,Blackcrowned Tchagra,a,KNP
+745,Marsh Tchagra
+746,Bokmakierie,a,Suikerbosrand
+747,Gorgeous Bush Shrike,a,Mkuze Nature Reserve,29/12/2001
+748,Orangebreasted Bush Shrike,a,KNP Lower Sabie
+749,Blackfronted Bush Shrike
+750,Olive Bush Shrike,a,Mt. Sheba
+751,Greyheaded Bush Shrike,a,KNP Skukuza
+752,Whitetailed Shrike
+753,White Helmetshrike,a,KNP
+754,Redbilled Helmetshrike,a,KNP Punda Maria,2/1/1992
+755,Chestnutfronted Helmetshrike
+756,Whitecrowned Shrike,a
+757,European Starling,a,Cape Town,12/1993
+758,Indian Myna,a,"Lenasia, Garden"
+759,Pied Starling,a,"Lenasia, Garden"
+760,Wattled Starling,a,Suikerbosrand
+761,Plumcoloured Starling,a,KNP Satara
+762,Burchell's Starling,a,KNP
+763,Longtailed Starling,a,KNP Pafuri
+764,Glossy Starling,a,KNP
+765,Greater Blue-eared Starling,a,KNP
+766,Lesser Blue-eared Starling
+767,Sharptailed Starling
+768,Blackbellied Starling,a,Ndumo Nature Reserve,22/12/2001
+769,Redwinged Starling,a,KNP Olifants
+770,Palewinged Starling,a,Augrabies National Park,1/4/2002
+771,Yellowbilled Oxpecker,a,KNP Bateleur S Sand Rd,12/2/2001
+772,Redbilled Oxpecker,a,KNP
+773,Cape Sugarbird,a,Chapman's Peak ,12/1993
+774,Gurney's Sugarbird,a,Marakele National Park,21/4/2002
+775,Malachite Sunbird,a
+776,Bronze Sunbird
+777,Orangebreasted Sunbird,a,Tablemountain,12/1993
+778,Coppery Sunbird
+779,Marico Sunbird,a,Hluhluwe ,12/1996
+780,Purplebanded Sunbird,a,Mkuze Nature Reserve,27/12/2001
+781,Shelley's Sunbird
+782,Neergaard's Sunbird
+783,Lesser Doublecollared Sunbird,a
+784,Miombo Doublecollared Sunbird
+785,Greater Doublecollared Sunbird,a,Royal Natal Nat. Park
+786,Yellowbellied Sunbird
+787,Whitebellied Sunbird,a
+788,Dusky Sunbird,a,Augrabies National Park,31/3/2002
+789,Grey Sunbird,a,Mkuze Nature Reserve,27/12/2001
+790,Olive Sunbird
+791,Scarletchested Sunbird,a
+792,Black Sunbird,a,KNP Satara
+793,Collared Sunbird,a,KNP Punda Maria,3/1/1992
+794,Bluethroated Sunbird
+795,Violetbacked Sunbird
+796,Cape White-eye,a,"Lenasia, Garden"
+797,Yellow White-eye,a,KNP Punda Maria,4/1/1992
+798,Redbilled Buffalo Weaver,a,KNP
+799,Whitebrowed Sparrow-weaver,a,KNP Pretoruiskop Shitlhavedam
+800,Sociable Weaver,a,Rd to Augrabies bt  Kuruman & Upington,31/3/2002
+801,House Sparrow,a,"Lenasia, Garden"
+802,Great Sparrow,a
+803,Cape Sparrow,a,"Lenasia, Garden"
+804,Greyheaded Sparrow,a,KNP
+805,Yellowthroated Sparrow,a,KNP Nwanetsi
+806,Scalyfeathered Finch,a,Vaalkop
+807,Thickbilled Weaver,a,KNP Skukuza H1-2
+808,Forest Weaver,a,"St. Lucia, Mapelane",12/1996
+809,Oliveheaded Weaver
+810,Spectacled Weaver,a,"KNP Lower Sabie, Miodozdam"
+811,Spottedbacked Weaver,a,KNP Babalala,4/1/1992
+812,Chestnut Weaver
+813,Cape Weaver,a,"Lenasia, Garden"
+814,Masked Weaver,a,"Lenasia, Garden"
+815,Lessermasked Weaver,a,KNP Lower Sabie
+816,Golden Weaver,a,KNP Skukuza Campsite,8/11/2004
+817,Yellow Weaver,a,"St. Lucia, Mapelane",12/1996
+818,Brownthroated Weaver
+819,Redheaded Weaver,a,KNP Mooiplaas
+820,Cuckoo Finch,a,Suikerbosrand,16/12/1996
+821,Redbilled Quelea,a
+822,Redheaded Quelea
+823,Cardinal Quelea
+824,Red Bishop,a,"Lenasia, Garden"
+825,Firecrowned Bishop
+826,Golden Bishop,a,Olifantsvlei
+827,Yellowrumped Widow,a,Mt. Sheba
+828,Redshouldered Widow,a,Suikerbosrand
+829,Whitewinged Widow,a,Bronkhorspruit
+830,Yellowbacked Widow
+831,Redcollared Widow,a
+832,Longtailed Widow,a,Olifantsvlei
+833,Goldenbacked Pytilia
+834,Melba Finch,a,KNP
+835,Green Twinspot
+836,Redfaced Crimsonwing
+837,Nyasa Seedcracker
+838,Pinkthroated Twinspot,a,Maputo Elephant Reserve,21/4/2003
+839,Redthroated Twinspot
+840,Bluebilled Firefinch,a
+841,Jameson's Firefinch,a,Bospoort Dam
+842,Redbilled Firefinch,a,KNP Satara
+843,Brown Firefinch
+844,Blue Waxbill,a,KNP
+845,Violeteared Waxbill,a,KNP Timbavati
+846,Common Waxbill,a
+847,Blackcheeked Waxbill,a,Rust De Winter
+848,Grey Waxbill,a,Kosi Bay Lodge,23/12/2001
+849,Cinderalla Waxbill
+850,Swee Waxbill,a,Mt. Sheba
+851,East African Swee
+852,Quail Finch,a,Pretoria - Rietvlei Nature Reserve,2/2006
+853,Locust Finch
+854,Orangebreasted Waxbill
+855,Cut-throat Finch,a,Pilanesberg
+856,Redheaded Finch,a
+857,Bronze Mannikin,a,KNP Olifants
+858,Redbacked Mannikin,a,Maputo Elephant Reserve,21/4/2003
+859,Pied Manninkin
+860,Pintailed Whydah,a
+861,Shaft-tailed Whydah,a,Borakalalo
+862,Paradise Whydah,a
+863,Broadtailed Paradise Whydah
+864,Black Widowfinch,a,KNP Olifants Camp
+865,Purple Widowfinch
+866,Violet Widowfinch
+867,Steelblue Widowfinch,a,KNP Letaba River
+868,Chaffinch,a,Cape Town - Tokai Forest,7/2006
+869,Yelloweyed Canary,a
+870,Blackthroated Canary,a,Vaalkop Dam,26/1/2003
+871,Lemonbreasted Canary,a,KNP Limpopo River,11/12/2004
+872,Cape Canary,a,Royal Natal National Park
+873,Forest Canary,a,Royal Natal National Park
+874,Cape Siskin,a,Cape Point,12/2005
+875,Drakensberg Siskin
+876,Blackheaded Canary
+877,Bully Canary,a,Cape Town - Rondevlei,10/8/2002
+878,Yellow Canary,a,Vaalbos National Park,23/12/2002
+879,Whitethroated Canary,a,Augrabies National Park,1/4/2002
+880,Protea Canary
+881,Streakyheaded Canary,a,KNP Nwanetsi
+882,Blackeared Canary
+883,Cabani's Bunting
+884,Goldenbreasted Bunting,a,KNP
+885,Cape Bunting,a,Suikerbosrand
+886,Rock Bunting,a
+887,Larklike Bunting,a,Augrabies National Park,1/4/2002
+901,Mountain Pipit
+902,Lesser Yellowlegs
+903,Redthroated Pipit
+904,Redrumped Swallow
+905,Laysan Albatross
+906,Greater Yellowlegs
+907,Pied Wheatear

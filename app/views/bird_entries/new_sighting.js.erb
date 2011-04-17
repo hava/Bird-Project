@@ -1,2 +1,18 @@
 $("#first_sighting_<%= @entry.id %>").replaceWith("<%= escape_javascript(render :partial => 'bird_entries/first_sighting', :locals => {:entry => @entry})%>");
-$("#sightings_<%= @entry.id %>").replaceWith("<%= escape_javascript(render :partial => 'bird_entries/sightings', :locals => {:entry => @entry})%>");
+$("#sightings_<%= @entry.id %>").fadeOut();
+$("#entry_<%=@entry.id%> .entry_action").toggle();
+$("#entry_<%=@entry.id%>").removeClass("highlight");
+$("#entry_<%=@entry.id%>").addClass("pulsate");
+$("#entry_<%=@entry.id%>").effect("pulsate", {}, 1000, callback);
+
+function callback() {
+    setTimeout(function() {
+        $("#entry_<%=@entry.id%>").removeAttr("style").hide().fadeIn();
+
+    }, 1000);
+
+    $("#entry_<%=@entry.id%>").removeClass("pulsate");
+}
+
+
+

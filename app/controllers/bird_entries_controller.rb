@@ -12,9 +12,8 @@ class BirdEntriesController < ApplicationController
 
   def new_sighting
     @entry = BirdEntry.find(params[:id])
-    place = params[:bird_entry]["#{@entry.id}"][:sighting][:place]
-    date = params[:bird_entry]["#{@entry.id}"][:sighting][:date]
-    @entry.sightings.push(Sighting.new(:place => place, :date => date))
+    sighting_param = params[:bird_entry]["#{@entry.id}"][:sighting]
+    @entry.add_sighting(Sighting.new(:place => sighting_param[:place], :date => sighting_param[:date]))
     @entry.save
   end
 

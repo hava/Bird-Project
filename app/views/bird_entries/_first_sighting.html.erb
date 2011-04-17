@@ -1,7 +1,7 @@
-<span id="first_sighting_<%= entry.id %>">
+<span id="first_sighting_<%= entry.id %>" class="first_sighting">
     <% if !entry.sightings.empty? %>
         <% first_sighting = entry.sightings.first %>
-      <%= first_sighting.place %>
-      <%= first_sighting.date %>
+      <span class="first_place"><%= first_sighting.place %></span>
+      <span class="first_date"><%= first_sighting.date %></span>
     <% end %>
-  </span>
+</span>

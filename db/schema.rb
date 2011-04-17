@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(:version => 20110413194655) do
 
   create_table "bird_entries", :force => true do |t|
+    t.string   "bird_id"
     t.string   "name"
     t.integer  "bird_list_id"
     t.datetime "created_at"

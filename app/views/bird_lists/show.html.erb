@@ -1,16 +1,12 @@
-<p id="notice"><%= notice %></p>
+<h2 class="list_name">
+  <%= @bird_list.name %>
+</h2>
 
-<p>
-    <b>Name:</b>
-    <%= @bird_list.name %>
-</p>
-
-
-<%= form_for @bird_list do |list_form| %>
-    <% @bird_list.bird_entries.each do |entry| %>
+<ul class="bird_list">
+  <% @bird_list.bird_entries.each do |entry| %>
+      <li>
         <%= render :partial => 'bird_entries/bird_entry', :locals => {:entry => entry} %>
-    <% end %>
-<% end %>
+      </li>
+  <% end %>
+</ul>
 
-<%= link_to 'Edit', edit_bird_list_path(@bird_list) %> |
-<%= link_to 'Back', bird_lists_path %>
