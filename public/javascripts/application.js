@@ -28,5 +28,19 @@ function replace_with_remote_for_type(element, remote_action, method_type) {
 
 }
 
+function effects(element, effect, cssClass, tearDown) {
+    element.effect(effect, {times: 3}, 1000, callback);
+
+    function callback() {
+        setTimeout(function() {
+            element.removeAttr("style").hide().fadeIn();
+        }, 1000);
+        if (tearDown)
+        {
+            tearDown.call()
+        }
+    }
+}
+
 
 
