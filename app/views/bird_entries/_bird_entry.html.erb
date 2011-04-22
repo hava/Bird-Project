@@ -1,6 +1,7 @@
 <div id="entry_<%= entry.id %>" class="bird_entry">
   <%= form_tag('/#', :remote => true) do %>
       <%= fields_for entry, :index => entry.id do |entry_form| %>
+          <span class="id"><%= entry.bird_id %></span>
           <span class="seen"><%= entry_form.check_box :seen, 'data-update-action'=> seen_path(entry) %></span>
           <span class="entry_name"><%= entry.name %></span>
           <%= render :partial => 'bird_entries/first_sighting', :locals => {:entry => entry} %>

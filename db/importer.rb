@@ -1,7 +1,7 @@
 class Importer
   def self.create_list
-    file = File.open("BirdList_test.csv")
-#    file = File.open("BirdList.csv")
+#    file = File.open("BirdList_test.csv")
+    file = File.open("BirdList.csv")
     list = BirdList.new(:name => "Southern African")
 
     while (line = file.gets)

@@ -47,22 +47,37 @@
 }
 
 
-.bird_entry {
-    width: 90%;
+.bird_entry  {
+    width: 95%;
     border-bottom: 1px dotted #deb887
 
 }
 
-.bird_entry span {
+.bird_entry_headings  {
+    width: 95%;
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#8fbc8f;
+    vertical-align:middle;
+}
+
+.bird_entry span, .bird_entry_headings span {
     display: inline-block;
 }
 
 .first_sighting {
-    width: 45%;
+    width: 50%;
+}
+
+.id {
+    width: 5%;
+    text-align: center;
 }
 
 .seen {
-    width: 5%
+    width: 6%;
+    text-align: center;
 }
 
 .entry_name {
@@ -70,15 +85,17 @@
 }
 
 .first_place {
-    width: 60%
+    width: 65%
 }
 
 .first_date {
-    width: 35%
+    width: 30%;
+    text-align: center;
 }
 
 .entry_action {
-    width: 15%
+    width: 5%;
+    text-align: center;
 }
 
 .sightings {
@@ -126,4 +143,15 @@ input {
 .bird_entry:hover
 {
   background-color: #f7f6f3;
+}
+
+.pagination_header
+{
+    width:100%;
+}
+
+.pagination
+{
+    width: 40%;
+    float:right;
 }

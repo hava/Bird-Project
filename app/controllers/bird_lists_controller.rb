@@ -16,7 +16,7 @@ class BirdListsController < ApplicationController
   # GET /bird_lists/1.xml
   def show
     @bird_list = BirdList.find(params[:id])
-
+    @bird_entries = BirdEntry.paginate :page => params[:page]
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @bird_list }

@@ -2,11 +2,31 @@
   <%= @bird_list.name %>
 </h2>
 
+<div class="pagination_header">
+  <%= page_entries_info @bird_entries %>
+  <%= will_paginate @bird_entries, :inner_window => 2 %>
+</div>
+
 <ul class="bird_list">
-  <% @bird_list.bird_entries.each do |entry| %>
+  <li>
+    <div class="bird_entry_headings">
+      <span class="id">Id</span>
+      <span class="seen">Seen</span>
+      <span class="entry_name">Bird</span>
+      <span class="place">First sighting</span>
+      <span class="date"></span>
+      <span class="entry_action"></span>
+    </div>
+  </li>
+  <% @bird_entries.each do |entry| %>
       <li>
         <%= render :partial => 'bird_entries/bird_entry', :locals => {:entry => entry} %>
       </li>
   <% end %>
 </ul>
+
+<div class="pagination_header">
+  <%= will_paginate @bird_entries %>
+</div>
+
 
