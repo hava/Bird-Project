@@ -10,10 +10,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110413194655) do
+ActiveRecord::Schema.define(:version => 20110425194655) do
 
   create_table "bird_entries", :force => true do |t|
-    t.string   "bird_id"
+    t.integer  "bird_id",      :limit => 255
     t.string   "name"
     t.integer  "bird_list_id"
     t.datetime "created_at"

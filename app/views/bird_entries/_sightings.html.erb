@@ -1,25 +1,21 @@
 <div id="sightings_<%= entry.id %>" class="sightings hidden">
-  <table>
-    <tr>
-      <th class="place">Sightings</th>
-      <th class="date"></th>
-      <td></td>
-    </tr>
+  <h3>Sightings:</h3>
+  <ol>
     <% entry.sightings.each do |sighting| %>
-        <tr>
-          <td class="place"><%= sighting.place %></td>
-          <td class="date"><%= sighting.date %></td>
+        <li>
+          <span class="place"><%= sighting.place %></span>
+          <span class="date"><%= sighting.date %></span>
           <td></td>
-        </tr>
+        </li>
     <% end %>
-    <tr>
-      <%= fields_for entry, :index => entry.id do |entry_form| %>
-          <%= entry_form.fields_for :sighting do |sighting_form| %>
-              <td><%= sighting_form.text_field :place %></td>
-              <td><%= sighting_form.text_field :date, :class=> "date"%></td>
-              <td><%= link_to "Save", '#', 'data-update-action'=> new_sighting_path(entry) %></td>
-          <% end %>
-      <% end %>
-    </tr>
-  </table>
+    <%= fields_for entry, :index => entry.id do |entry_form| %>
+        <li>
+        <%= entry_form.fields_for :sighting do |sighting_form| %>
+            <span><%= sighting_form.text_field :place %></span>
+            <span><%= sighting_form.text_field :date, :class=> "date" %></span>
+            <span><%= link_to "Save", '#', 'data-click-update-action'=> new_sighting_path(entry) %></span>
+        <% end %>
+        </li>
+    <% end %>
+  </ol>
 </div>

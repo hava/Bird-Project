@@ -1,6 +1,5 @@
 $("#sightings_<%= @entry.id %>").replaceWith("<%= escape_javascript(render :partial => 'bird_entries/sightings', :locals => {:entry => @entry})%>");
- $("#entry_<%=@entry.id%> .entry_action").toggle();
- $("#entry_<%=@entry.id%>").addClass("highlight");
+ show_sightings("<%= @entry.id %>");
 
-$("#first_sighting_<%=@entry.id%>").toggle();
-$("#sightings_<%= @entry.id %>").fadeIn(500);
+
+
