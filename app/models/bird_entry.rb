@@ -9,16 +9,16 @@ class BirdEntry < ActiveRecord::Base
     sightings.push(sighting)
   end
 
-#  t.string :bird_id
-#  t.string :name
-#  t.date :date
-#  t.string :place
+  def remove_sighting(sighting)
+    sightings.delete(sighting)
+  end
+
 
   def self.search(search_string)
-    results = BirdEntry.joins(:sightings).where("bird_id like '%#{search_string}%' OR
-                                                  name like '%#{search_string}%' OR
-                              sightings.place like '%#{search_string}%' OR
-                              sightings.date like '%#{search_string}%'")
+    results = BirdEntry.all(:include =>[:sightings], :conditions => ["bird_id like ? OR
+                                                  name like ? OR
+                              sightings.place like ? OR
+                              sightings.date like ?", "%#{search_string}%", "%#{search_string}%", "%#{search_string}%", "%#{search_string}%"])
     results
   end
 end

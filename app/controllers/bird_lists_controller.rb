@@ -1,26 +1,13 @@
 class BirdListsController < ApplicationController
 
 
-  # GET /bird_lists
-  # GET /bird_lists.xml
   def index
     @bird_lists = BirdList.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @bird_lists }
-    end
   end
 
-  # GET /bird_lists/1
-  # GET /bird_lists/1.xml
   def show
     @bird_list = BirdList.find(params[:id])
     @bird_entries = @bird_list.search(params[:search], params[:page])
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render :xml => @bird_list }
-    end
   end
 
   # GET /bird_lists/new

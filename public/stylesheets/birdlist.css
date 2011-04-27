@@ -99,7 +99,6 @@
 }
 
 input {
-    width: auto;
     height: 16px;
     font-family: verdana, arial, helvetica, sans-serif ;
     border:1px solid #d1c7ac;
@@ -127,6 +126,7 @@ input {
 .pagination_header
 {
     width:100%;
+    padding-left:40px
 }
 
 .pagination
@@ -151,4 +151,51 @@ input {
 .sightings ol
 {
     padding:0;
+}
+
+.search_form
+{
+    padding-left:40px;
+}
+.search_form label
+{
+    width: 10%;
+    display:block;
+    float:left;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+span.place, span.date
+{
+   padding:4px;
+}
+
+span.date
+{
+   margin-left:5px;
+}
+
+.place
+{
+    width: 200px;
+}
+
+.date
+{
+    width:150px
+
+}
+
+.sighting_action
+{
+    width: 100px;
+    text-align:center;
+}
+
+#list_count
+{
+    float:right;
+    padding-right: 50px;
+    color:#8b0000;
 }

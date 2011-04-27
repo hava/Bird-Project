@@ -4,6 +4,7 @@ BirdProject::Application.routes.draw do
   put 'bird_entries/:id/seen' => 'bird_entries#seen',:as => :seen
   get 'bird_entries/:id/edit' => 'bird_entries#edit_entry',:as => :edit_bird_entry
   put 'bird_entries/:id/new_sighting' => 'bird_entries#new_sighting',:as => :new_sighting
+  put 'bird_entries/:id/remove_sighting/:sighting_id' => 'bird_entries#remove_sighting',:as => :remove_sighting
 
 
   # The priority is based upon order of creation:

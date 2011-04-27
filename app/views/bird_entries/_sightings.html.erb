@@ -5,16 +5,16 @@
         <li>
           <span class="place"><%= sighting.place %></span>
           <span class="date"><%= sighting.date %></span>
-          <td></td>
+          <span class="sighting_action"><%= link_to "Remove", '#', {'data-click-update-action'=> remove_sighting_path(entry, sighting)} %></span>
         </li>
     <% end %>
     <%= fields_for entry, :index => entry.id do |entry_form| %>
         <li>
-        <%= entry_form.fields_for :sighting do |sighting_form| %>
-            <span><%= sighting_form.text_field :place %></span>
-            <span><%= sighting_form.text_field :date, :class=> "date" %></span>
-            <span><%= link_to "Save", '#', 'data-click-update-action'=> new_sighting_path(entry) %></span>
-        <% end %>
+          <%= entry_form.fields_for :sighting do |sighting_form| %>
+              <%= sighting_form.text_field :place, :class=> "place" %>
+              <%= sighting_form.text_field :date, :class=> "date" %>
+              <span class="sighting_action"><%= link_to "Save", '#', {'data-click-update-action'=> new_sighting_path(entry)} %></span>
+          <% end %>
         </li>
     <% end %>
   </ol>

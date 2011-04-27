@@ -1,12 +1,12 @@
 <h2 class="list_name">
-  <%= @bird_list.name %>
+  <%= @bird_list.name %>  <%= render :partial => 'bird_lists/list_count' %>
 </h2>
 
-<% form_tag request.path, :method => 'get' do %>
-  <% content_tag :label do %>
-    Search:
+<%= form_tag request.path, :method => 'get', :class => 'search_form' do %>
+    <%= content_tag :label do %>
+        Search:
+    <% end %>
     <%= text_field_tag :search, params[:search] %>
-  <% end %>
 <% end %>
 
 
@@ -34,7 +34,7 @@
 </ul>
 
 <div class="pagination_header">
-  <%= will_paginate @bird_entries %>
+  <%= will_paginate @bird_entries, :inner_window => 2 %>
 </div>
 
 
