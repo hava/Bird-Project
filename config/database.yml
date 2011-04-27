@@ -3,7 +3,7 @@ development:
   encoding: unicode
   database: birding
   pool: 5
-  password:
+  password: netscape
 
 
 # SQLite version 3.x
