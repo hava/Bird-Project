@@ -8,12 +8,12 @@
       </library>
     </libraries>
   </data-source>
-  <data-source source="LOCAL" name="Rails bird-project: development" product="" version="" jdbc-version="" driver-version="" uuid="bb282ab2-d2c6-4a45-b486-985580cf0950">
-    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-    <jdbc-url>jdbc:sqlite:/home/hava/rails_projects/bird-project/db/development.sqlite3</jdbc-url>
+  <data-source source="LOCAL" name="Rails bird-project: development" product="" version="" jdbc-version="" driver-version="" uuid="749b72c5-c9c5-4ff3-9a79-88072adc2477">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/birding</jdbc-url>
     <libraries>
       <library>
-        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
       </library>
     </libraries>
   </data-source>

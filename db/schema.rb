@@ -13,12 +13,12 @@
 ActiveRecord::Schema.define(:version => 20110425194655) do
 
   create_table "bird_entries", :force => true do |t|
-    t.integer  "bird_id",      :limit => 255
     t.string   "name"
     t.integer  "bird_list_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "seen"
+    t.integer  "bird_id"
   end
 
   create_table "bird_lists", :force => true do |t|

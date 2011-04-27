@@ -15,10 +15,12 @@ class BirdEntry < ActiveRecord::Base
 
 
   def self.search(search_string)
-    results = BirdEntry.all(:include =>[:sightings], :conditions => ["bird_id like ? OR
-                                                  name like ? OR
-                              sightings.place like ? OR
-                              sightings.date like ?", "%#{search_string}%", "%#{search_string}%", "%#{search_string}%", "%#{search_string}%"])
+    search_bird_id = search_string.to_i  rescue nil
+    search_date = Date.strptime(search_string, "%d/%m/%Y") rescue nil
+
+    results = BirdEntry.all(:include =>[:sightings], :conditions =>
+        ["bird_id = ? OR name like ? OR  sightings.place like ? OR sightings.date = ?",
+         search_bird_id, "%#{search_string}%", "%#{search_string}%", search_date])
     results
   end
 end
